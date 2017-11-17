@@ -13,23 +13,31 @@ CREATE TABLE products (
 );
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ('Mario Bros Hat', 'Apparel', '8.99', '5');
+VALUES ('Mario Bros Hat', 'Apparel', '8.99', '50');
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ('', '', '.99', '5');
+VALUES ('I\m With Donkey Kong Shirt', 'Apparel', '7.99', '50');
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ('Duck Hunt Zapper', 'Accessories', '10.99', '1');
+VALUES ('Duck Hunt Zapper', 'Accessories', '10.99', '10');
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ('Link Sword', 'Accessories', '19.99', '2');
+VALUES ('Link Sword', 'Accessories', '19.99', '20');
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ('Captain N the Game Master (TV Series', 'Video', '99.99', '1');
+VALUES ('Captain N the Game Master (TV Series)', 'Video', '99.99', '10');
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ('Mega Man (TV Series)', 'Video', '29.99', '2');
+VALUES ('Mega Man (TV Series)', 'Video', '29.99', '20');
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ('Mega Man (TV Series)', 'Video', '29.99', '2');
+VALUES ('Legend of Zelda Encyclopedia (2018)', 'Books', '32.99', '40');
 
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ('How to Draw Nintendo Greatest Heroes', 'Books', '6.99', '20');
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ('Wireless NES Controller, Classic Edition', 'Electronics', '13.99', '50');
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ('NES Game Console', 'Electronics', '99.99', '10');
